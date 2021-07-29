@@ -1,0 +1,60 @@
+
+/* testimonial secation satar  */
+
+.testText{
+    text-align: center;
+}
+
+.testline{
+    width: 10%;
+    background-color: rgb(9, 93, 189);
+    height: 1px;
+}
+
+
+
+.tester_new {
+	padding: 20px 0 100px;
+}
+.tester_new hr {
+	width: 100px;
+}
+.tester_new .carousel-item p {
+	color: #666;
+	line-height: 28px;
+	letter-spacing: 1px;
+} 
+.tester_new .carousel-item hr {
+	width: 100px;
+}
+.tester_new .carousel-item h5 {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.tester_new .carousel-indicators li {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-image: url(https://st4.depositphotos.com/5934840/23608/v/450/depositphotos_236083742-stock-illustration-young-man-face-cartoon-vector.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 5px solid #f1f2f3;
+	opacity: 0.4;
+	box-shadow: 0px 0px 5px 1px #ccc;
+	margin: 0 10px;
+  cursor:pointer;
+}
+.tester_new .carousel-indicators li:nth-child(2) {
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca66418a-2819-48ad-8bfb-a8d16e191610/defklto-ad3a1da1-77ac-4bf1-bbf1-726c5e1980e2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NhNjY0MThhLTI4MTktNDhhZC04YmZiLWE4ZDE2ZTE5MTYxMFwvZGVma2x0by1hZDNhMWRhMS03N2FjLTRiZjEtYmJmMS03MjZjNWUxOTgwZTIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OfP7Zh9BU5mayeJo0QxxECyxVsqI7POCT6U3JnPnmgk);
+}
+.tester_new .carousel-indicators li:nth-child(3) {
+	background-image: url(https://cdn.pixabay.com/photo/2018/08/04/10/23/man-3583424_960_720.jpg);
+}
+.carousel-indicators {
+	bottom: -90px;
+}
+.tester_new .carousel-indicators .active {
+	opacity: 1;
+}
+
+/* testimonial secation end  */
