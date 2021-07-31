@@ -1,0 +1,25 @@
+.breeds{
+    text-align: center;
+    font-weight: bold;
+}
+
+.breedsLine{
+    width: 10%;
+    background-color: rgb(9, 93, 189);
+    height: 1px;
+}
+
+.breedsCard{
+ 
+    width: 500px;
+    height: 250px;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    
+}
+.cutcat1{
+    height: 250px;
+    width: 270px;
+    margin-left: -30px;
+}
+
+

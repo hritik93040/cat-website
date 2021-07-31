@@ -1,0 +1,43 @@
+.aboutCat{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin-top: -10px;
+    
+}
+
+@media (max-width: 800px) {
+    .aboutCat{
+        height: 300px;
+    }
+    
+}
+
+
+.aboutcatHeading{
+    text-align: center;
+    font-weight: bold;
+}
+
+.aboutcatLine{
+    width: 8%;
+    height: 1px;
+    background-color: rgb(9, 93, 189);
+}
+
+
+.aboutcatParagraph{
+    text-align: center;
+    
+}
+
+
+.maineCat{
+    height: 550px;
+    width:  100%;
+    margin-top: 30px;
+}
+
+.maincatHeadind{
+    color: rgb(9, 93, 189);
+}
