@@ -11,7 +11,7 @@ const Aboutus = () => {
             
                     <img className="aboutCat" src="/images/gallery22.jpg" alt="" />
                 
-            <br />
+            <br /><br/>
             <h1 className="aboutcatHeading">About Cat</h1>
             <hr className="aboutcatLine" /><br />
             <div className="container">
