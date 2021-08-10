@@ -14,12 +14,107 @@
     width: 500px;
     height: 250px;
     box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
-    
+    background-color: rgb(13, 117, 236);
+    margin-left: 40px;
+    transition: 0.45s;   
 }
+
+
+
+.breedsCard:hover{
+    transform: translate(-10px);
+}
+
+.breedsCard1{
+ 
+    width: 500px;
+    height: 250px;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    background-color: rgb(13, 117, 236);
+    transition: 0.45s;
+}
+
+.breedsCard1:hover{
+    transform: translate(-10px);
+
+}
+
+
+
 .cutcat1{
     height: 250px;
-    width: 270px;
-    margin-left: -30px;
+    width: 245px;
+    float:left;
 }
+
+
+.cutcat2{
+    height: 250px;
+    width: 245px;
+    float:left;
+}
+    
+   
+
+
+
+
+
+.breedsCard2{
+ 
+    width: 500px;
+    height: 250px;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    background-color: rgb(240, 193, 66);
+    margin-left: 40px;
+    transition: 0.45s;
+    
+}
+
+.breedsCard2:hover{
+    transform: translate(-10px);
+}
+
+
+
+.breedsCard3{
+ 
+    width: 500px;
+    height: 250px;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    background-color: rgb(240, 193, 66);
+    transition: 0.45s;
+
+    
+}
+
+.breedsCard3:hover{
+    transform: translate(-10px);
+
+}
+
+
+
+
+.cutcat3{
+    height: 250px;
+    width: 245px;
+    float:right;
+    
+    
+}
+
+
+.cutcat4{
+    height: 250px;
+    width: 245px;
+    float:right;
+    
+    
+}
+
+
+
+
 
 

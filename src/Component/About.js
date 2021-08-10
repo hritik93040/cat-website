@@ -6,7 +6,7 @@ const About = () => {
         <>
         
         <h1 className="cat">About Cats</h1>
-        <hr className="line"/>
+        <hr className="line"/><br/><br/>
 
         <div className="container">
             <div className="row">
