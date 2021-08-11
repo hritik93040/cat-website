@@ -5,7 +5,7 @@ const s = () => {
     return (
         <div>
             <nav class="navbar navbar-expand-md bg-light navbar-light  p-3  ">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="home">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -20,9 +20,7 @@ const s = () => {
       <li class="nav-item">
         <a class="nav-link" href="/gallery">Gallery</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>       
+         
     </ul>
   </div>  
 </nav>

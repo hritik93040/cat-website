@@ -14,7 +14,19 @@
 
 .aboutCat{
     width: 100%;
-    height: 450px;
+    height:600px !important;
     margin-top: 30px;
     
 }
+
+@media (max-width:800px) {
+    .aboutCat{
+        width: 100%;
+        height:400px !important;
+        margin-top: 30px;
+        
+    }
+    
+}
+
+

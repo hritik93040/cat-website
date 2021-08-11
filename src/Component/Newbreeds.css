@@ -11,18 +11,104 @@
 
 .breedsCard{
  
-    width: 500px;
+    width: 500px;   
     height: 250px;
     box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
     background-color: rgb(13, 117, 236);
-    margin-left: 40px;
-    transition: 0.45s;   
+    transition: 0.45s;
+    margin-left: 40px;   
+}
+
+
+@media (max-width:800px){
+
+    .breedsCard{
+ 
+        width: 362px;   
+        height: 220px;
+        box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+        background-color: rgb(13, 117, 236);
+        transition: 0.45s;
+        margin-left: 0px;
+       
+        
+    }
+    
 }
 
 
 
 .breedsCard:hover{
     transform: translate(-10px);
+}
+
+.cutcat1{
+    height: 250px;
+    width: 245px;
+    float:left;
+    
+}
+
+@media (max-width:800px) {
+
+    .cutcat1{
+        height: 220px;
+        width: 175px;
+        float:left;
+    }
+    
+}
+
+
+.breedsHeading{
+    
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    color: yellow;
+}
+.breedsPara{
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:800px) {
+    .breedsPara{
+        text-align: center;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    
+}
+
+
+.btn.btn-warning{
+    width: 17%;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: -25px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+@media (max-width:800px) {
+    .btn.btn-warning{
+        width: 20%;
+        height: 30px;
+        margin-left: 50px;
+        margin-top: -20px;
+        font-size: 9px;
+        font-weight: 600;
+    
+    }
+    
 }
 
 .breedsCard1{
@@ -34,6 +120,18 @@
     transition: 0.45s;
 }
 
+@media (max-width:800px) {
+    .breedsCard1{
+ 
+        width: 360px;
+        height: 220px;
+        box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+        background-color: rgb(13, 117, 236);
+        transition: 0.45s;
+    }
+    
+}
+
 .breedsCard1:hover{
     transform: translate(-10px);
 
@@ -41,17 +139,22 @@
 
 
 
-.cutcat1{
-    height: 250px;
-    width: 245px;
-    float:left;
-}
+
 
 
 .cutcat2{
     height: 250px;
     width: 245px;
     float:left;
+}
+
+@media (max-width:800px) {
+    .cutcat2{
+        height: 220px;
+        width: 175px;
+        float:left;
+    }
+    
 }
     
    
@@ -66,14 +169,59 @@
     height: 250px;
     box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
     background-color: rgb(240, 193, 66);
-    margin-left: 40px;
     transition: 0.45s;
+    margin-left: 40px;
+}
+
+@media (max-width:800px) {
+    .breedsCard2{
+ 
+        width: 360px;
+        height: 220px;
+        box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+        background-color: rgb(240, 193, 66);
+        transition: 0.45s;
+        margin-left: 0px;
+    }
     
 }
 
 .breedsCard2:hover{
     transform: translate(-10px);
 }
+
+.breedsHeading1{
+    
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    color:rgb(28, 98, 248);
+}
+
+.btn.btn-primary{
+    width: 17%;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: -25px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+@media (max-width:800px) {
+    .btn.btn-primary{
+    width: 20%;
+        height: 30px;
+        margin-left: 50px;
+        margin-top: -20px;
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+    
+}
+
+
 
 
 
@@ -84,9 +232,19 @@
     box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
     background-color: rgb(240, 193, 66);
     transition: 0.45s;
+    }
 
-    
-}
+    @media (max-width:800px) {
+        .breedsCard3{
+ 
+            width: 360px;
+            height: 220px;
+            box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+            background-color: rgb(240, 193, 66);
+            transition: 0.45s;
+            }
+        
+    }
 
 .breedsCard3:hover{
     transform: translate(-10px);
@@ -100,9 +258,17 @@
     height: 250px;
     width: 245px;
     float:right;
-    
-    
-}
+    }
+
+
+    @media (max-width:800px) {
+        .cutcat3{
+            height: 220px;
+            width: 180px;
+            float:right;
+            }
+        
+    }
 
 
 .cutcat4{
@@ -110,6 +276,18 @@
     width: 245px;
     float:right;
     
+    
+}
+
+@media (max-width:800px) {
+
+    .cutcat4{
+        height: 220px;
+        width: 180px;
+        float:right;
+        
+        
+    }
     
 }
 
